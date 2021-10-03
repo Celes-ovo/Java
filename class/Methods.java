@@ -1,12 +1,10 @@
-package com.dinfree.java.part1;
-
 public class Methods {
 	
 	String name;
 	
 	Methods() {
-		name = "í”Œë¼ì´ê³¤";
-		System.out.printf("ìƒì„±ì : %s\n", name);
+		name = "ÇÃ¶óÀÌ°ï";
+		System.out.printf("»ı¼ºÀÚ : %s\n", name);
 	}
 	
 	
@@ -36,8 +34,8 @@ public class Methods {
 		
 		Methods m = new Methods();
 		m.printname();
-		m.printname2("í•œì¹´ë¦¬ì•„ìŠ¤");
-		m.printname3("í”Œë¼ì´ê³¤", "í•œì¹´ë¦¬ì•„ìŠ¤", "ë³´ë§Œë‹¤");
+		m.printname2("ÇÑÄ«¸®¾Æ½º");
+		m.printname3("ÇÃ¶óÀÌ°ï", "ÇÑÄ«¸®¾Æ½º", "º¸¸¸´Ù");
 		
 		System.out.printf("result : %d\n", m.calc(2, 6));
 
