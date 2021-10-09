@@ -20,7 +20,7 @@ public class Homework {
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
-		Methods qwe = new Methods();
+		Homework qwe = new Homework();
 		qwe.printinfo("의용생체공학과", "201738407", "김상민");
 
 	}
